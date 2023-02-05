@@ -1,0 +1,18 @@
+package org.example;
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 35;
+        int n2 = 20;
+        int temp;
+
+        System.out.println("Antes del cambio n es igual a "+ n +" y n2 es igual a " + n2);
+
+        temp = n;
+        n = n2;
+        n2 = temp;
+
+        System.out.println("Despues del cambio n es igual a "+ n +" y n2 es igual a " + n2);
+        
+    }
+}
